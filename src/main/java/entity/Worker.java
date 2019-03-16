@@ -37,24 +37,10 @@ public class Worker {
         this.fullName = fullName;
     }
 
-    public <T> Worker(int i, Availability fullTime, String taras_tkhir, T load) {
+    public <T> Worker(int i, Availability fullTime, String str, T load) {
     }
 
-    public Department getDepartment() {
-        return department;
-    }
 
-    public Availability getAvailability() {
-        return availability;
-    }
-
-    public String getFullName() {
-        return fullName;
-    }
-
-    public void setDepartment(Department department) {
-        this.department = department;
-    }
 
     @Override
     public String toString() {
